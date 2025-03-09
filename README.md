@@ -4,14 +4,12 @@ An easy-to-use tool for UWaterloo instructors/TAs to check the students' code do
 ## Features
 
 1. Single & batch execution – Runs tests on one or multiple submissions, with direct terminal output for single files.
-2. Automated logging – Saves results in passed.txt, failed.txt, and errors in errorlog.txt.
+2. Automated logging – Saves results in `passed.txt`, `failed.txt`, and errors in `errorlog.txt` to your given directory.
 3. Progress & stats – Displays a progress bar and final pass/fail/error counts.
 
 Know problem(s)
 
-1. If the student code got runtime error or timeout, the log in the bulk running does not show the entire output. Run the single file testing to show all outputs.
-2. (Only for A1) you have to use `--verbose` mode to show the #failed tests, otherwise it only shows a 'Failed'.
-
+1. If the student code got runtime error or timeout, the log in the bulk running does not show the entire output. Please run the single file testing to show all outputs.
 
 ## How to run this code
 
