@@ -31,6 +31,7 @@ Steps:
 
     Remember to follow the input output format and do not change the function / file names, or it won't be able to be imported by the main function.
 
+    ```
     Input:
         module      : ModuleType, the module that contains the student's code file, where a function can be extracted.
         verbose     : bool, True if you want to print the failed test cases, False otherwise.
@@ -40,6 +41,7 @@ Steps:
 
     Decorator input: 
         timeout     : int, the maximum time the test can run in seconds. 
+    ```
 
 3. Run all students' submissions:
 
